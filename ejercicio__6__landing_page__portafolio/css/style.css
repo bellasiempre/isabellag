@@ -1,0 +1,240 @@
+:root{
+
+    /*Colores de el documento en general*/
+
+   --color_primario:  #ffecdc;
+   --color_secundario: #a08267;
+   --color_terciario: #fff3ea;
+   --color_cuaternario: #ffba81;
+   --color_quinto: #ffffff;
+
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.logo {
+    width: 10.5em;
+    margin: auto;
+    margin: 0.5em 6em 0.6em 4em;
+}
+
+body {
+    background-color: var(--color_primario);
+}
+
+.container{
+    display: flex;
+    width: 70%;
+    max-width: 106em;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.container{
+    width: 90%;
+    margin: 0.5em 3.5em 0.6em 3em;
+}
+
+
+nav {
+    background-color: var(--color_terciario);
+    position: sticky;
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+
+nav .nav {
+
+    padding: 0.5em 0em 0em 3em;
+}
+
+
+nav .container ul li {
+    display: inline;
+    padding: .2em;
+}
+
+nav .container ul li a{
+    font-size: 1em;
+    color: var(--color_secundario);
+    padding: .5em 1em;
+    border-radius: 0.6em;
+}
+
+nav .container ul li a:hover{
+    color: var(--color_quinto);
+    background-color:var(--color_cuaternario);
+}
+
+
+section .wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    width: 70%;
+    height: 90vh;
+    max-width: 106em;
+    margin: auto;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.imagen_logo{
+    width: 20em;
+    margin: auto;
+    margin: 17em 2.5em 5em 6em;
+
+}
+
+.bienvenida .down {
+    margin-top: 2em;
+}
+
+.bienvenida {
+    display: flex;
+    background-color: var(--color_primario);
+}
+
+.caja_parrafo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10em 5em 2.5em 5em;
+}
+
+
+p{
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 100;
+    font-size: 1.6em;
+    color: var(--color_secundario);
+}
+
+.servicios{
+    background-color: var(--color_terciario);
+    margin-bottom: 8em;
+    width: 100%;
+    height: 53em;
+
+}
+
+
+.contenedor_img{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:center;
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.contenedor_img .box__1{
+    margin-right: 1.3em;
+    margin-left: 1em;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor_img .box__2{
+    margin-right: 1.3em;
+    margin-left: 1em;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor_img .box__3{
+    margin-right: 1.3em;
+    margin-left: 1em;
+    justify-content: center;
+    align-items: center;
+}
+
+
+section .box__1 {
+    text-align: center;
+    padding: 1.8em;
+    width: 35%;
+    margin-right: 1.3em;
+    margin-left: 1em;
+    margin: auto;
+    margin-bottom: 1.8em;
+    margin-top: 1.5em;
+    color: #414833;
+}
+
+section .box__2 {
+    text-align: center;
+    padding: 1.8em;
+    margin-right: 1.3em;
+    margin-left: 1em;
+    width: 35%;
+    margin: auto;
+    margin-bottom: 1.8em;
+    
+}
+
+section .box__3 {
+    text-align: center;
+    padding: 1.8em;
+    width: 35%;
+    margin-right: 1.3em;
+    margin-left: 1em;
+    margin: auto;
+    margin-bottom: 1.8em;
+    
+}
+
+.caja_parrafo .a{
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+    color: var(--color_secundario);
+    padding: 1.5em 1.2em;
+}
+
+h1{
+    font-size: 2em;
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 800;
+    margin-top: 5em;
+    margin-bottom: 0.5em;
+    color: var(--color_secundario);
+}
+
+
+h2{
+    font-size: 1.5em;
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 100;
+    color: var(--color_secundario);
+    margin-bottom: 1em;
+}
+
+h3{
+    font-size: 1em;
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 100;
+    color: var(--color_secundario);
+}
